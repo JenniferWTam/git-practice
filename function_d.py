@@ -12,8 +12,8 @@ def max_value(numbers):
     # ordered_list = sorted(numbers)
     # return ordered_list[-1]
     'Jen is goint to receive an Git Push Error! ;-P'
-    ordered_list = sorted(numbers)
-    return ordered_list[-1]
+    numbers.sort()
+    return numbers[-1]
 
 
 if __name__ == "__main__":
