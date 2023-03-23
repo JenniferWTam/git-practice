@@ -9,11 +9,13 @@ def max_value(numbers):
     return largest_number
     print(largest_number)
 
+    # ITERATION 2
     # ordered_list = sorted(numbers)
     # return ordered_list[-1]
-    'Jen is goint to receive an Git Push Error! ;-P'
-    numbers.sort()
-    return numbers[-1]
+
+    # ITERATION 3
+    # numbers.sort()
+    # return numbers[-1]
 
 
 if __name__ == "__main__":
