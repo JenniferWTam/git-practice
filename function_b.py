@@ -7,12 +7,12 @@ def silly_sum():
         the user enters 0, or
         the sum reaches or exceeds 1000
     """
-    sum = 0
-    number = input('Enter a number to do summary. Enter 0 to exit. ')
-    while number != 0 and sum < 1000:
-        sum += number
-        number = input('Enter a number to do summary. Enter 0 to exit. ')
-    return sum
+    num_sum = 0
+    number = int(input('Enter a number to do summary. Enter 0 to exit. '))
+    while number != 0 and num_sum < 1000:
+        num_sum += number
+        number = int(input('Enter a number to do summary. Enter 0 to exit. '))
+    return num_sum
         
 
 
