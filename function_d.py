@@ -3,7 +3,8 @@ def max_value(numbers):
         in the list.
     """
     'Jen is goint to receive an Git Push Error! ;-P'
-    pass
+    ordered_list = sorted(numbers)
+    return ordered_list[-1]
 
 
 if __name__ == "__main__":
